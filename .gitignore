@@ -1,0 +1,15 @@
+# .env dosyası ignore edilsin
+.env
+
+env/
+
+# env ile başlayan klasörler ignore edilsin
+/env*/
+
+# Env dosyalarını ignore et
+env*
+
+# db.sqlite dosyasını ignore et
+db.sqlite*
+db.sqlite3*
+.sql*
